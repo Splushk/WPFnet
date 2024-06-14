@@ -1,0 +1,17 @@
+﻿<Page x:Class="Zooha.AdminPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Zooha"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AdminPage">
+
+    <Grid>
+        <Button Name="Catbtn" Content="Категории" HorizontalAlignment="Left" Margin="301,184,0,0" VerticalAlignment="Top" Height="41" Width="144" Click="Catbtn_Click"/>
+        <Button Name="Prodbtn" Content="Товары" HorizontalAlignment="Left" Margin="301,246,0,0" VerticalAlignment="Top" Height="41" Width="144" Click="Prodbtn_Click"/>
+        <Button Name="Ordbtn" Content="Заказы" HorizontalAlignment="Left" Margin="301,125,0,0" VerticalAlignment="Top" Height="41" Width="144" Click="Ordbtn_Click"/>
+
+    </Grid>
+</Page>
